@@ -21,7 +21,7 @@ The framework follows industry-standard automation practices with reusable page 
 
 ## Application Under Test
 
-*Website:* https://tricentis.com
+*Website:* https://demowebshop.tricents.com/
 The framework automates key e-commerce functionalities including:
 * User Registration
 * User Login
