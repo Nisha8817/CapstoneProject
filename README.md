@@ -37,23 +37,96 @@ The framework automates key e-commerce functionalities including:
 * Account Management
 * Return Requests
 
-├── App.java
-├── DatabaseConnection.java
-├── CompareProductsPage.java
-├── ContactUsPage.java
-├── ExcelLoginUtility.java
-├── GuestCheckoutPage.java
-├── HomePage.java
-├── LoginPage.java
-├── ProductDetailsPage.java
-├── ProductFilterPage.java
-├── ProductSortingPage.java
-├── RecentlyViewedPage.java
-├── RegisteredCheckoutPage.java
-├── RegisterPage.java
-├── ReturnRequestPage.java
-├── SearchResultsPage.java
-├── WishlistPage.java
+## Technology Stack
+
+| Technology / Tool | Purpose | Version |
+| :--- | :--- | :--- |
+| *Java* | Core Programming Language | JDK 17 |
+| *Selenium WebDriver* | UI Browser Automation | Latest |
+| *Cucumber BDD* | Behavior-Driven Development Framework | Latest |
+| *TestNG* | Test Execution Engine and Assertions | Latest |
+| *Maven* | Build and Dependency Management Tool | Latest |
+| *Page Object Model (POM)* | Framework Design Pattern Architecture | - |
+| *Apache POI* | Excel-based Test Data Management | Latest |
+| *Allure Reports* | Interactive Graphical Test Reporting | Latest |
+| *Extent Reports* | Detailed Test Logs and Execution Summaries | Latest |
+
+## Framework Architecture
+
+The project follows the Page Object Model (POM) design pattern.
+
+
+
+
+text
+
+DemoShop_Cucumber
+│
+│
+│
+├── src/main/java
+│   │
+│   ├── pages
+│   │   │
+│   │   └── utility classes
+│
+│
+├── src/test/java
+│   │
+│   ├── runner
+│   │
+│   ├── stepdefinitions
+│   │
+│   └── hooks
+│
+│
+├── src/test/resources
+│   │
+│   ├── features
+│   │
+│   └── test data
+│
+│
+├── allure-results
+│
+├── target
+│
+└── test-output
+│
+├── pom.xml
+└── testng.xml
+
+
+## Project Structure 
+
+### Pages Package Layout
+The framework structure isolates UI interactions through the following Page Object Model (POM) classes:
+* AccountPage.java — Manages user profiles, addresses, and order history.
+* CartPage.java — Handles quantities, coupon codes, and transitions to checkout.
+* CategoryPage.java — Manages item navigation, sorting options, and grid/list views.
+* CheckoutPage.java — Automates billing, shipping, payment methods, and final order confirmations.
+* CompareProductsPage.java — Handles the side-by-side product comparison grid.
+* ContactUsPage.java — Handles the contact form submission.
+* ExcelLoginUtility.java — A utility class for reading user credentials from Excel files.
+* GuestCheckoutPage.java — Handles checkout flows for non-registered users.
+* HomePage.java — Manages the landing page elements (sliders, featured products).
+* LoginPage.java — Houses locators for the user sign-in portal.
+* ProductDetailsPage.java — Manages item variants, quantity inputs, and "Add to Cart" buttons.
+* ProductFilterPage.java — Automates refining product grids by price filters.
+* ProductSortingPage.java — Automates refining product grids by position, name, or price sorting.
+* RecentlyViewedPage.java — Validates history tracking of items viewed by the user.
+* RegisteredCheckoutPage.java — Manages the fast-track checkout for signed-in accounts.
+* RegisterPage.java — Handles new account creation forms.
+* ReturnRequestPage.java — Automates product returns.
+* SearchResultsPage.java — Validates search text queries against returned items.
+* WishlistPage.java — Handles favorite items and moving them to the shopping cart.
+
+
+
+
+
+
+
 
 ## Feature Coverage
 
@@ -238,7 +311,7 @@ XML
 * Kandukuri Siddarth Goud
 
  
-*Role:* Project Engineer | SDET Automation Engineer 
+*Role:** Project Engineer | SDET Automation Engineer 
 
 *Project Type:*
 End-to-End E-Commerce Automation Testing Framework for Demo Web Shop Application using Selenium, Cucumber, TestNG, Maven, and Page Object Model.
