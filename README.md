@@ -58,7 +58,8 @@ The project follows the Page Object Model (POM) design pattern.
 
 
 
-text
+'''text
+
 DemoShop_Cucumber
 │
 ├── src/main/java
@@ -79,6 +80,7 @@ DemoShop_Cucumber
 ├── test-output
 ├── pom.xml
 └── testng.xml
+'''
 
 ## Project Structure 
 
