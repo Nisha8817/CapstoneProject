@@ -58,14 +58,12 @@ The project follows the Page Object Model (POM) design pattern.
 
 
 
-'''text
-
+text
 DemoShop_Cucumber
 │
 ├── src/main/java
 │   ├── pages
 │   └── utility classes
-│
 │
 ├── src/test/java
 │   ├── runner
@@ -78,11 +76,9 @@ DemoShop_Cucumber
 │
 ├── allure-results
 ├── target
-└── test-output
-│
+├── test-output
 ├── pom.xml
 └── testng.xml
-'''
 
 ## Project Structure 
 
