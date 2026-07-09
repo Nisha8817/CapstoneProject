@@ -298,6 +298,7 @@ XML
 *Role:* Project Engineer | SDET Automation Engineer  
 
 *Project Type:*
+
 End-to-End E-Commerce Automation Testing Framework for Demo Web Shop Application using Selenium, Cucumber, TestNG, Maven, and Page Object Model.
 
 
