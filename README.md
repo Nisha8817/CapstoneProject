@@ -36,6 +36,7 @@ The framework automates key e-commerce functionalities including:
 * Recently Viewed Products
 * Account Management
 * Return Requests
+  
 
 ## Technology Stack
 
@@ -79,6 +80,8 @@ DemoShop_Cucumber
 └── testng.xml
 ```
 
+
+### Project Structure
 
 ```### Pages Package Layout
 The framework structure isolates UI interactions through the following Page Object Model (POM) classes:
@@ -153,6 +156,7 @@ Excel-based test data handling is implemented using:
 Feature files are stored under:
 
 src/test/resources/features
+
 
 ### Example:
 
@@ -265,6 +269,8 @@ XML
     <artifactId>allure-cucumber7-jvm</artifactId>
 </dependency>
 
+
+
 ## Key Framework Features
 * Selenium WebDriver Automation
 * Cucumber BDD Framework
@@ -277,6 +283,8 @@ XML
 * Reusable Components
 * Scalable Framework Structure
 * Maven Build Management
+
+  
 
 ## Authors
 * Nisha Mandwal
